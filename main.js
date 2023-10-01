@@ -50,7 +50,7 @@ prova = async function(){
 async function query(){
   const promise = new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
-    xhr.open( "GET", "Raspberry pi url");
+    xhr.open( "GET", "http://RaspberryPiIP:5000");
     xhr.onload = function() {
       if (xhr.status === 200) {
         // La richiesta è andata a buon fine
