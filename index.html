@@ -1,0 +1,81 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenLayers</title>
+  <link rel="stylesheet" href="./lib/v7.4.0-package/ol.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>SpotLocation</h1>
+  <table>
+    <tr>
+      <td>
+        <div id="menu" class='controls'>
+          <button type="button" class='menu_btn list' title="show spot list"></button>
+          <br>
+          <button type="button" class='menu_btn info' title="show info box"></button>
+          <br>
+          <button type="button" class='menu_btn filter' title="show filter list"></button>
+          <br>
+          <button type="button" class='menu_btn gallery' title="show images gallery"></button>
+          <br>
+          <button type="button" class='menu_btn center' title="center view in Italy"></button>
+        </div>
+      </td>
+      <td style="position: relative; width: 90%; vertical-align: middle;">
+        <!--map div-->
+        <div id="js-map" class='map'>
+          <div class="overlay-container">
+            <div class="overlay-text" id="feature-name"></div>
+            <div class="overlay-text" id="feature-image"></div>
+            <div class="overlay-text" id="feature-icon"></div>
+            <div class="overlay-text" id="feature-info"></div>
+            <hr>
+            <div class="overlay-text" id="feature-desc"></div> 
+          </div>
+        </div> 
+        <!--popup div-->
+        <div class="popup">
+          <!--spot list-->
+          <div class='map list' id="map-list">
+            <h3>category list</h3>
+            <div id="list-container"></div>
+          </div>
+
+          <!--filters-->
+          <div class='map filter' id="map-filter">
+            <h3>filters</h3>
+            <div id="checkbox-container"></div>
+          </div>
+
+          <!--infobox-->
+          <div class='map info' id="map-info">
+            <h3>info box</h3>
+            <h4>number of element</h4>
+            <div id="info-container" class="info_spec"></div>
+            <span id="nature_info" class="info_spec"></span><br>
+            <span id="urban_info" class="info_spec"></span><br>
+            <span id="food_info" class="info_spec"></span><br>
+          </div>
+
+          <!--gallery-->
+          <div class='map gallery' id="map-gallery">
+            <h3>images gallery</h3>
+            <div id="gallery-btn-span" class="gallery-btn-span">
+              <button id="gallery-grid-view" class="gallery-btn"></button>
+              <button id="gallery-list-view" class="gallery-btn"></button>
+            </div>
+            <span id="gallery-content" class="gallery-content"></span>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  <script src='./lib/v7.4.0-package/dist/ol.js'></script>
+  <script src='./main.js'></script>
+</body>
+</html>
