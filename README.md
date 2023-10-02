@@ -64,33 +64,33 @@ Starting window of the site, it shows a map with all the spot marked by with a c
 </div>
 <h3 id="popupInfo">Popup info</h3>
     <span>
-    Every time the user clicks on a marker a popup will appear on the marker presse, showing some additional information.
+    Every time the user clicks on a marker a popup will appear on the marker pressed, showing some additional information.
     </span><br><br>
     <img src="docs/screenshot/popupMap.png">
     <img src="docs/screenshot/spotZoomInfo.png"><br>
 <h3 id="categoryList">Category list</h3>
     <img src="menu_icons/list.png" width="50px" style="border-radius: 5px;"><br>
     <span>
-        When the list button is pressed a pop up will appear on the left, showing the list of all spots divided by category, in this list you the user can toggle the category in order to hide or show all item in the list by clicking on the category name.
+        When the list button is pressed a popup will appear on the left, showing the list of all spots divided by category, in this list you the user can toggle the category in order to hide or show all item in the list by clicking on the category name.
     </span><br><br>
     <img src="docs/screenshot/categoryList.png">
 <h3 id="infoBox">Info box</h3>
     <img src="menu_icons/info.png" width="50px" style="border-radius: 5px;"><br>
     <span>
-        When the info box button is pressed a pop up will appear on the left, showing some information/statistic of all the database like: the numeber of spots saved for each category and the number of spots saved for each country (the latter maded using <a href="https://www.geonames.org/">GeoNames</a> API).
+        When the info box button is pressed a popup will appear on the left, showing some information/statistic of all the database like: the numeber of spots saved for each category and the number of spots saved for each country (the latter maded using <a href="https://www.geonames.org/">GeoNames</a> API).
     </span><br><br>
     <img src="docs/screenshot/infoBox.png">
 <h3 id="filters">Filters</h3>
     <img src="menu_icons/filter.png" width="50px" style="border-radius: 5px;"><br>
     <span>
-        When the filter button is pressed a pop up will appear on the left, showing the list of checkboxes, one for each category.<br>Checking and unchecking a category all the spots of that category will appear or disappear.
+        When the filter button is pressed a popup will appear on the left, showing the list of checkboxes, one for each category.<br>Checking and unchecking a category all the spots of that category will appear or disappear.
     </span><br><br>
     <img src="docs/screenshot/filterOn.png">
     <img src="docs/screenshot/filterOff.png">
 <h3 id="gallery">Gallery</h3>
     <img src="menu_icons/gallery.png" width="50px" style="border-radius: 5px;"><br>
     <span>
-        When the gallert button is pressed a pop up will appear on the left, showing an images gallery with all the photo uploaded on <a href="https://imgur.com/">imgur.org</a> by the <a href="#postify">ios Shortcut</a>.<br>
+        When the gallert button is pressed a popup will appear on the left, showing an images gallery with all the photo uploaded on <a href="https://imgur.com/">imgur.org</a> by the <a href="#postify">ios Shortcut</a>.<br>
         On the top left there are two more buttons (<img src="menu_icons/grid_gallery.png" width="15px">, <img src="menu_icons/list_gallery.png" width="15px">) which toggle the style of the gallery: grid or list.
     </span><br><br>
     <img src="docs/screenshot/gallery1.png">
