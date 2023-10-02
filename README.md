@@ -1,4 +1,5 @@
 <h1> SpotLocation</h1>
+<img src="docs/screenshot/start.png">
 Project to save spot around the world through IOS Shortcut and display them in a web page hosted by a Raspberry Pi 4.
 
  <ol>
