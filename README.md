@@ -64,14 +64,14 @@ Post do a POST request to the RaspPi address in order with the JSON with all the
 
 Every time the user clicks on a marker a popup will appear on the marker pressed, showing some additional information.
 
-    <img src="docs/screenshot/popupMap.png">
-    <img src="docs/screenshot/spotZoomInfo.png"><br>
+<img src="docs/screenshot/popupMap.png">
+<img src="docs/screenshot/spotZoomInfo.png"><br>
 ### Category list <a name="categoryList"></a>
-    <img src="menu_icons/list.png" width="50px" style="border-radius: 5px;"><br>
-    <span>
-        When the list button is pressed a popup will appear on the left, showing the list of all spots divided by category, in this list you the user can toggle the category in order to hide or show all item in the list by clicking on the category name.
-    </span><br><br>
-    <img src="docs/screenshot/categoryList.png">
+<img src="menu_icons/list.png" width="50px" style="border-radius: 5px;"><br>
+
+When the list button is pressed a popup will appear on the left, showing the list of all spots divided by category, in this list you the user can toggle the category in order to hide or show all item in the list by clicking on the category name.
+   
+<img src="docs/screenshot/categoryList.png">
 ### Info box <a name="infoBox"></a>
     <img src="menu_icons/info.png" width="50px" style="border-radius: 5px;"><br>
     <span>
