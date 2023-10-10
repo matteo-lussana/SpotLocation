@@ -59,7 +59,7 @@ Post do a POST request to the RaspPi address in order with the JSON with all the
     <img src="markers/marker_urban.png" width="60px" title="urban">
     <img src="markers/marker_view.png" width="60px" title="view">
 </div>
-<h3>Popup info</h3>
+
 ### Popup info<a name="popupInfo"></a>
 
 Every time the user clicks on a marker a popup will appear on the marker pressed, showing some additional information.
