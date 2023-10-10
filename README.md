@@ -47,7 +47,7 @@ Post do a POST request to the RaspPi address in order with the JSON with all the
 </span>
 
 <img src="docs/screenshot/start.png">
-<h4 id="categoryIcon">Category icon</h4>
+#### Category icon
     <span>
         All spots are subdivided in six categories (food, mountain, nature, water, urban, view)<br><br>
     </span>
