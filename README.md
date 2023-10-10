@@ -1,16 +1,14 @@
-<h1> SpotLocation</h1>
+# SpotLocation
 <img src="docs/screenshot/start.png">
 Project to save spot around the world through IOS Shortcut and display them in a web page hosted by a Raspberry Pi 4.
 
- <ol>
-  <li><a href="#saving">Saving</a></li>
-  <li><a href="#upload">Upload</a></li>
-  <li><a href="#display">Display</a></li>
-  <li><a href="#htu">How to use</a></li>
-  <li><a href="#licence">Licence</a></li>
-</ol> 
+1. [Saving](#saving)
+2. [Upload](#uploading)
+3. [Display](#display)
+4. [Hou to use](#htu)
+5. [License](#license)
 
-<h2 id="saving"> Saving </h2>
+## Saving <a name="saving"></a>
 
 <div align="center" >
     <img src="docs/SaveSpot.jpg" width="500px">
@@ -108,7 +106,7 @@ Starting window of the site, it shows a map with all the spot marked by with a c
         In order to make all work you have to import the library in main.js or download the library of openlayers map on their <a href="https://openlayers.org/">site</a> and move it in /lib folder.<br> (I tested all project with the 7.4.0 version)
     </span>
 
-<h2 id="licence"> Licence </h2>
+<h2 id="license"> License </h2>
 <h3>openlayers</h3>
 <a href="https://openlayers.org/">https://openlayers.org/</a><br><br>
 <span>
