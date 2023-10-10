@@ -15,15 +15,15 @@ Project to save spot around the world through IOS Shortcut and display them in a
 </div>
 The spots are locally saved in a file (/spot.txt) in JSON format and the images are locally saved in a folder (/spot_img)
 
-<h2 id="uploading"> Uploding </h2>
-<h3 id="postify"> Postify </h3>
+## Upload <a name="uploading"></a>
+### Postify
 
 <div align="center">
     <img src="docs/PostIfy.jpg" width="500px">
 </div>
 Postify shortcut upload the images saved in the /spot_img on imgur, replacing the img attribute with the imgur urls and save all the spots in other two files (/final.txt and /backup.txt)
 
-<h3> Post </h3>
+### Post
 
 <div align="center">
     <img src="docs/Post.jpg" width="500px">
@@ -31,7 +31,8 @@ Postify shortcut upload the images saved in the /spot_img on imgur, replacing th
 
 Post do a POST request to the RaspPi address in order with the JSON with all the spot and then it deletes spot.txt, final.txt and all the image saved in spot_img folder
 
-<h2 id="display"> Display </h2>
+## Display <a name="display"></a>
+
 
 <ol>
     <li><a href="#general_view">General view</a></li>
@@ -100,13 +101,13 @@ Starting window of the site, it shows a map with all the spot marked by with a c
         When the gallert center button is pressed the view is gonna zoom in a precize location, in my case Italy.
     </span>
 
-<h2 id="htu"> How to use </h2>
+## How to use <a name="htu">  </a>
 <h4 id="note1">openlayer libraries</h4>
     <span>
         In order to make all work you have to import the library in main.js or download the library of openlayers map on their <a href="https://openlayers.org/">site</a> and move it in /lib folder.<br> (I tested all project with the 7.4.0 version)
     </span>
 
-<h2 id="license"> License </h2>
+## License <a name="license"></a>
 <h3>openlayers</h3>
 <a href="https://openlayers.org/">https://openlayers.org/</a><br><br>
 <span>
