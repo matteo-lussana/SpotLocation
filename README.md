@@ -34,7 +34,7 @@ Post do a POST request to the RaspPi address in order with the JSON with all the
 ## Display <a name="display"></a>
 
 1. [General view](#general_view)
-2. [Popup info](#popupInfo)
+2. [Popup info](#popupinfo)
 3. [Category list](#categoryList)
 4. [Info box](#infoBox)
 5. [Filters](#filters)
@@ -60,7 +60,7 @@ Post do a POST request to the RaspPi address in order with the JSON with all the
     <img src="markers/marker_view.png" width="60px" title="view">
 </div>
 
-### Popup info<a name="popupInfo"></a>
+### Popup info<a name="popupinfo"></a>
 
 Every time the user clicks on a marker a popup will appear on the marker pressed, showing some additional information.
 
